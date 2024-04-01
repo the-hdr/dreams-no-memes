@@ -7,17 +7,25 @@ body, html
 
 .header
 {
-    height: 5vh; /* 5% of the viewport height */
+    height: 10vh; /* 5% of the viewport height */
     width: 100%;
     background-color: #333;
     color: #fff;
     text-align: center;
     line-height: 5vh; /* Vertically center text */
+
+    /* -left: 5%; */
+    display: flex;
+}
+
+.heading
+{
+    padding-left: 5%;
 }
 
 .content
 {
-    height: 95vh; /* 95% of the viewport height */
+    height: 90vh; /* 95% of the viewport height */
     width: 100%;
     background-color: #f0f0f0;
     padding: 0px;
@@ -35,6 +43,18 @@ body, html
 
 #left-part {
     width: 30%;
+}
+
+#left-part-content-top {
+    height: 30%;
+}
+
+#left-part-content-middle {
+    height: 40%;
+}
+
+#left-part-content-bottom {
+    height: 30%;
 }
 
 #right-part {
