@@ -51,6 +51,13 @@ body, html
 
 #left-part-content-middle {
     height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 50%;
 }
 
 #left-part-content-bottom {
