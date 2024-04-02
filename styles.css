@@ -33,7 +33,8 @@ body, html
     display: flex;
 }
 
-.inner-content {
+.inner-content
+{
     width: 50%;
     height: 100%;
     background-color: #f0f0f0;
@@ -41,29 +42,60 @@ body, html
     box-sizing: border-box;
 }
 
-#left-part {
+#left-part
+{
     width: 30%;
 }
 
-#left-part-content-top {
+#left-part-content-top
+{
     height: 30%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 10%;
 }
 
-#left-part-content-middle {
+#left-part-content-top-heading
+{
+    font-size: 300%;
+    text-align: center;
+}
+
+#left-part-content-middle
+{
     height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#logo {
+#logo
+{
     width: 50%;
 }
 
-#left-part-content-bottom {
+#left-part-content-bottom
+{
     height: 30%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 250%;
+
+    padding: 0 10%;
 }
 
-#right-part {
+#left-part-content-bottom-content
+{
+    align-items: center;
+}
+
+#right-part
+{
     width: 70%;
 }
