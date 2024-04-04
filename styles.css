@@ -90,6 +90,11 @@ body, html
     padding: 0 10%;
 }
 
+#left-part-content-bottom-heading
+{
+    text-align: center;
+}
+
 #left-part-content-bottom-content
 {
     align-items: center;
@@ -98,4 +103,4 @@ body, html
 #right-part
 {
     width: 70%;
-}
+} 
